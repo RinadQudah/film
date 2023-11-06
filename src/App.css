@@ -1,0 +1,56 @@
+
+  .fixed-background {
+    background: url('./assets/disney-wallpaper-79.jpg') ;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  container {
+    padding: 20px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  @media (min-width: 768px) {
+    .col-md-3 {
+      text-align: center;
+    }
+  }
+  .row{
+    background-color:rgb(46, 45, 45);
+  }
